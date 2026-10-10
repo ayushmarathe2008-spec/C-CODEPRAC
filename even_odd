@@ -1,0 +1,22 @@
+// FINDING IF THE ENTERED NUMBER IS POSITIVE OR NEGATIVE AND EVEN OR ODD
+
+
+#include<stdio.h>
+
+int main() {
+int number; //1-monday; 2- tuesday; 3-wednesday
+printf("enter number:");
+scanf("%d",&number);
+
+if(number >= 0){
+    printf("positive\n");
+    if(number%2==0) {
+        printf("even\n");
+    } else {
+        printf("odd\n");
+    }
+} 
+else {
+    printf('negative\n');
+}
+} 
